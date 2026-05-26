@@ -1,122 +1,75 @@
-# **Unplugged Antivirus and Tracker Detection App**
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# UP-Antivirus
 
-**A comprehensive antivirus and tracker detection solution designed to protect Android devices from malicious apps, files, and threats, while maintaining user privacy.**
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/UP-Antivirus)
 
-<img src="Images/home-activity.png" alt="drawing" width="150"/> <img src="Images/scan-activity.png" alt="drawing" width="150"/> <img src="Images/scan-history.png" alt="drawing" width="150"/> <img src="Images/scan-full-results.png" alt="drawing" width="150"/> <img src="Images/trackers-information-dialog.png" alt="drawing" width="150"/>
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-## **Table of Contents**
-- [Introduction](#introduction)
-- [Open Source Details](#open-source-details)
-- [Features](#features)
-- [Installation](#installation)
-- [Reporting Bugs](#reporting-bugs)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Contact](#contact)
+## Architecture
 
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-## **Introduction**
+## Install
 
-This project provides Android users with a robust antivirus and tracker detection application based on:
-- The popular malware module, **Hypatia**.
-- The advanced tracker module, **TrackerControl**.
-- Our custom **Package Scanner** and **Signature Database**.
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-The app is designed for users concerned about their digital privacy and security, offering real-time protection and advanced tracking detection. It is lightweight, efficient, and easy to use.
+```bash
+git clone https://github.com/Interested-Deving-1896/UP-Antivirus.git
+cd UP-Antivirus
+```
 
+## Usage
 
-## **Open Source Details**
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-### **[Hypatia - Malware Scanner](https://github.com/Divested-Mobile/Hypatia)**
-This application incorporates the Hypatia Malware Scanner to:
-- Scan the device for malicious apps and files containing viruses or malware.
-- Provide an in-depth analysis of system files, enabling scans of `/system`, internal storage, external storage, and installed apps.
-- Operate completely offline: Internet access is only required to download signature databases. No files are ever sent off the device.
+## Configuration
 
-**Note:** The published code in this project points its malware database to Hypatia's servers. Unplugged's Antivirus releases use a malware database hosted on Unplugged's servers.
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-### **[TrackerControl - Tracker Scanner](https://github.com/TrackerControl/tracker-control-android)**
-This application integrates TrackerControl to:
-- Scan installed apps for built-in trackers and display detailed results.
-- Operate entirely offline: Tracker data is stored locally within the TrackerControl extension and not downloaded from the Internet.
+## CI
 
-### **Unplugged Module: Signature Scanner**
-In addition to the open-source modules, Unplugged has developed its own **Signature Scanner** to:
-- Identify known infected package signatures on the device.
-- Regularly update the signature database with indicators of compromised or infected apps.
-- Provide detailed insights into detected threats and recommend actions to secure the device.
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-**Note:** This published code has an example database for the Signature Scanner. You should use this example to create your own signature database.
+## Mirror chain
 
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/UP-Antivirus`](https://github.com/Interested-Deving-1896/UP-Antivirus) and mirrored through:
 
-## **Features**
+```
+Interested-Deving-1896/UP-Antivirus  ──►  OpenOS-Project-OSP/UP-Antivirus  ──►  OpenOS-Project-Ecosystem-OOC/UP-Antivirus
+```
 
-- Real-time virus, malware, and tracker scanning with threat detection.
-- A user-friendly interface designed for easy navigation.
-- Detailed reports on detected threats and trackers, equipped with search functionality.
-- Lightweight and optimized for Android devices.
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
+## Contributors
 
-## **Installation**
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-### **Prerequisites**
-- Android Studio.
-- Android device or Android Emulator.
-- Internet connection (for updates and threat database synchronization).
+## Origins
 
-### **Steps to Install**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/werunplugged/UP-Antivirus.git
-   ```
-2. Open the project in Android Studio.
-3. Sync the project with Gradle files.
-4. Build and install the application on your Android device or emulator.
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
 
-### **Basic Usage**
-1. Launch the app on your Android device.
-2. Tap the **Scan** button to perform a scan.
-3. View scan history on the **History** page.
-4. In the **History** page, tap a specific scan entry to view detailed results, complete with a built-in search feature.
+## Resources
 
-### **Configuration Details**
-- Customize app settings in the **Settings** menu.
-- Enable or disable features based on your preferences.
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
+## License
 
-## Reporting bugs
-
-A great bug report contains a description of the problem and steps to reproduce it. We need to know what to look for and where to look for it.
-When reporting a bug, please make sure to provide the following information:
-- A full description of the issue, including screenshots if possible.
-- Steps to reproduce the issue.
-- Antivirus version.
-- Device / OS information.
-
-
-## **Contributing**
-
-We welcome contributions to this project! To contribute:
-1. Fork the repository and create a new branch for your feature or fix.
-2. Ensure your code adheres to the project's coding standards.
-3. Submit a pull request with a clear description of your changes.
-4. Report issues or suggest features via the issue tracker.
-
-
-## **License**
-
-This project is licensed under the [AGPL 3.0 License](LICENSE). This fork inherits the license from the original project.
-
-
-## **Acknowledgments**
-
-We extend our gratitude to:
-- The original authors for their foundational work.
-- Contributors and community members for their valuable input.
-- Open-source libraries and tools used in this project.
-
-
-## **Contact**
-
-For questions or comments about **Antivirus**, contact **[Unplugged Support](mailto:support@unplugged.com)**.
+<!-- AI:start:license -->
+[AGPL-3.0](https://github.com/Interested-Deving-1896/UP-Antivirus/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
